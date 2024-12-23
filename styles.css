@@ -21,10 +21,36 @@ li {
     text-align: left;
 }
 
-li.egg {
+li#egg {
     color: blue;
 }
 
 a {
     display: block;
+}
+
+#mainpage-title {
+    text-align: center;
+    border: 2px dotted blue;
+}
+
+#mainpage-list {
+    text-align: center;
+}
+#mainpage-list li {
+    display: inline-block;
+    margin: 50px;
+    padding: 5px;
+}
+
+#burger-link {
+    border: 5px solid brown;
+}
+
+#donut-link {
+    border: 5px solid pink;
+}
+
+#mnc-link {
+    border: 5px solid yellow;
 }
